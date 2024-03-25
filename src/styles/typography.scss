@@ -1,0 +1,97 @@
+.title1 {
+    font-family: var(--primary-font);
+    font-size: 1.1421rem; 
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.7766rem; 
+
+    &.wht {
+        color: var(--grey-0);
+    }
+
+    &.grey {
+        color: var(--grey-1);
+    }
+
+    &.brand {
+        color: var(--primary-color);
+    }
+
+}
+
+.title2 {
+    font-family: var(--primary-font);
+    font-size: 1rem; 
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.6496rem; 
+
+    &.wht {
+        color: var(--grey-0);
+        font-size: .875rem;
+    }
+
+    &.grey {
+        color: var(--grey-1);
+    }
+
+    &.brand {
+        color: var(--primary-color);
+    }
+}
+
+.headline {
+    font-family: var(--primary-font);
+    font-size: .7614rem; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3959rem; 
+
+    &.wht {
+        color: var(--grey-0);
+
+        &.bold {
+            font-weight: 600;
+            line-height: 1.1421rem; 
+        }
+    }
+
+    &.grey {
+        color: var(--grey-1);
+
+        &.bold {
+            font-weight: 600;
+            line-height: 1.1421rem; 
+        }
+    }
+
+    &.brand {
+        color: var(--primary-color);
+
+        &.bold {
+            font-weight: 600;
+            line-height: 1.1421rem; 
+        }
+    }
+}
+
+.paragraph {
+    font-family: var(--primary-font);
+    font-size: 1rem; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.1421rem; 
+
+    &.wht {
+        color: var(--grey-0);
+    }
+
+    &.grey {
+        color: var(--grey-1);
+    }
+
+    &.brand {
+        color: var(--primary-color);
+    }
+
+}

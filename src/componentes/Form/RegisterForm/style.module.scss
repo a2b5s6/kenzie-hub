@@ -1,0 +1,13 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: .625rem;
+
+    &>form {
+        display: flex;
+        flex-direction: column;
+        gap: .25rem;
+    }
+}

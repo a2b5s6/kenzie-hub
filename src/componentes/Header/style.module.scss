@@ -1,0 +1,44 @@
+.flexboxReg {
+    display: flex;
+    gap: 7.3125rem;
+    text-align: center;
+    align-items: center;
+    padding: 0 .75rem;
+}
+
+.flexboxDash {
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 7.3125rem
+}
+
+.btn {
+    width: 4.9375rem;
+    height: 1.9375rem;
+
+
+    &>a {
+        padding: 0 1rem;
+        width: 100%;
+        height: 100%;
+        background-color: var(--grey-3);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
+
+    &>button {
+        padding: 0 1rem;
+        width: 100%;
+        height: 100%;
+        background-color: var(--grey-2);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
+}

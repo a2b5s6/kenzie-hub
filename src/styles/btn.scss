@@ -1,0 +1,36 @@
+.btn {
+    background-color: var(--primary-color);
+    border-radius: .25rem;
+
+    &.lrg {
+        width: 13.4375rem;
+        height: 3rem; 
+        padding: 0 1.4375rem; 
+
+        &.two{
+            width: 100%;
+        }
+    }
+
+    &.mdm {
+        width: 14.9375rem;
+        height: 2.375rem; 
+        padding: 0 1.4375rem; 
+
+        &.two {
+            margin: 1px;
+        }
+    }
+
+    &:hover {
+        background-color: var(--primary-color-focus);
+    }
+
+    &.grey {
+        background-color: var(--grey-1);
+
+        &:hover {
+            background-color: var(--grey-2);
+        }
+    }
+}

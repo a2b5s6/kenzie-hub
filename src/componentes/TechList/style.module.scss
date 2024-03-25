@@ -1,0 +1,23 @@
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .625rem 0;
+    margin: .625rem;
+}
+
+.conteiner {
+    padding: 1rem;
+    background-color: var(--grey-3);
+}
+
+.btn {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-3);
+    padding: 2px;
+    margin: 2px;
+}

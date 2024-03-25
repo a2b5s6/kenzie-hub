@@ -1,0 +1,43 @@
+.flexbox {
+    display: flex;
+    background-color: var(--grey-4);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.125rem; 
+    width: 100%;
+    height: 4.875rem; 
+    border-radius: .25rem;
+    flex-shrink: 0;
+    margin: .4375rem 0;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    @media(width >=750px) {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+
+        &>p {
+            padding-right: 1.25rem;
+            position: relative;
+            top: 1.25rem;
+        }
+    }
+}
+
+.btnConteiner {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    position: relative;
+    top: 1.25rem; 
+}
+
+.btn {
+
+    color: var(--grey-0);
+}

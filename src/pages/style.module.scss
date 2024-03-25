@@ -1,0 +1,24 @@
+.conteiner {
+    background-color: var(--grey-3);
+    display: flex;
+    padding: 33px 17px;
+    width: 296px;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    &.two {
+        align-items: center;
+        background-color: transparent;
+        width: 100vw;
+        padding: 0;
+    }
+}
+
+.hr {
+    width: 100%;
+    border-top: .125rem solid var(--grey-3);
+    flex-shrink: 0;
+}
