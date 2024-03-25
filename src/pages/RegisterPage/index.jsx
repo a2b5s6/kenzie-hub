@@ -1,4 +1,4 @@
-import { DefaultTemplate } from "../../components/DefaultTemplate";
+import { DefaultTemplate } from "../../components/DefaultTemplate/";
 import { Form } from "../../components/Form";
 import style from "../style.module.scss";
 

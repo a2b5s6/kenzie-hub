@@ -7,10 +7,10 @@ import { UserContext } from "./providers/UserContext.jsx";
 import { Loading } from "./components/Loading";
 
 function App() {
-  const { loading } = useContext(UserContext);
+  const { Loading } = useContext(UserContext);
   return (
     <>
-      {loading ? <Loading /> : <RoutesMain />}
+      {Loading ? <Loading /> : <RoutesMain />}
       <ToastContainer position="top-right" autoClose={1 * 1000} theme="colored" />
     </>
   );
